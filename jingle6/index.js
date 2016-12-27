@@ -27,6 +27,7 @@ function onLoad() {
     //default_heading: 90,
     //is_yaw_only: true,
     //is_vr_off: true,
+    default_yaw: 180
   });
   vrView.on('ready', onVRViewReady);
 
